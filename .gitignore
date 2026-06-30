@@ -131,8 +131,11 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-# Environments
+
+# Environment files
 .env
+.env.*
+!.env.example
 .venv
 env/
 venv/
@@ -172,8 +175,6 @@ cython_debug/
 #.idea/
 
 # End of https://www.toptal.com/developers/gitignore/api/django
-frontend/Dockerfile
 backend-drf/.env.docker
 backend-drf/.env.production
-backend-drf/Dockerfile
 docker-compose.yml

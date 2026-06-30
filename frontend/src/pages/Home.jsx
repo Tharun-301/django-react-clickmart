@@ -6,8 +6,7 @@ import Products from "./Products";
 
 export const Home = () => {
   const { dispatch } = useCart();
-  const { auth } = useAuth();
-  const accessToken = auth?.accessToken;
+  const accessToken = localStorage.getItem("accessToken");
 
   const { api } = useAxios();
 
