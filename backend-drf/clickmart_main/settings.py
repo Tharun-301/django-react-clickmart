@@ -176,4 +176,8 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
 ]
 
-STATICFILES_STORAGE = 'whitenoise. storage. StaticFilesStorage'
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://django-react-clickmart-production.up.railway.app",
+]
