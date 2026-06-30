@@ -178,3 +178,5 @@ cython_debug/
 backend-drf/.env.docker
 backend-drf/.env.production
 docker-compose.yml
+backend-drf/static/
+backend-drf/media/
